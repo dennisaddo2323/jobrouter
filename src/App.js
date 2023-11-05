@@ -12,6 +12,7 @@ import Contacts from "./pages/helpPages/contacts";
 import Email from "./pages/helpPages/email"
 import NotFound from "./pages/notFound"
 
+// create the react router
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout></RootLayout>}>
